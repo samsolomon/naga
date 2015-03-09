@@ -1,11 +1,13 @@
-// All variables
+// Variables and Mixins
 @import "partials/variables";
+@import "partials/mixins";
 
 //Reset
 @import "partials/reset";
 
 // Vendor
-@import "Vendor/skeleton";
+// @import "vendor/skeleton";
+@import "vendor/bootstrap-grid";
 
 // Partials
 @import "partials/typography";

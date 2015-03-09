@@ -7,7 +7,7 @@
  * @package NAGA
  */
 ?>
-		</div> <!--  end container -->
+
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
@@ -20,6 +20,8 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+</div> <!-- end container -->
 
 </body>
 </html>
