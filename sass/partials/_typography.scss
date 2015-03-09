@@ -10,6 +10,10 @@ body {
   color: $base-color;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-family-2;
+}
+
 a {
   color: $base-link-color;
   text-decoration: none;

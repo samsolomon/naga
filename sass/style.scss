@@ -1,11 +1,13 @@
 // All variables
 @import "partials/variables";
 
+//Reset
+@import "partials/reset";
+
 // Vendor
 @import "Vendor/skeleton";
 
 // Partials
-@import "partials/reset";
 @import "partials/typography";
 @import "partials/borders";
 @import "partials/lists";
