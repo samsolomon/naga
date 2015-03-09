@@ -34,7 +34,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-1.0 Normalize
+1.0 Normalize and Vendor
 2.0 Typography
 3.0 Elements
 4.0 Forms
@@ -58,9 +58,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "mixins/mixins-master";
 
 /*--------------------------------------------------------------
-1.0 Normalize
+1.0 Normalize and Vendor
 --------------------------------------------------------------*/
 @import "normalize";
+@import "vendor/skeleton";
 
 /*--------------------------------------------------------------
 2.0 Typography
