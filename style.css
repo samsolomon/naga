@@ -1473,7 +1473,8 @@ a.btn {
 
 html, body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  margin: 0 !important; }
 
 .container {
   max-width: 1020px;
@@ -1489,6 +1490,28 @@ hr {
   height: 1px;
   background: #dbdbdb;
   margin: 2rem 0; }
+
+ul#menu-main-navigation {
+  float: right; }
+
+li.menu-item {
+  display: inline-block;
+  margin: 3rem 0.5rem; }
+  li.menu-item a {
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    padding: 0.5rem 1rem;
+    letter-spacing: .2px;
+    text-decoration: none; }
+
+.current-menu-item a {
+  color: #fff !important;
+  background-color: #ba4b50;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold; }
 
 .homepage {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/naga/wordpress/wp-content/uploads/2015/03/NAGA-Hero-BW.jpg") no-repeat 50% 50% fixed rgba(0, 0, 0, 0.6);
@@ -1506,6 +1529,8 @@ hr {
     text-transform: uppercase; }
   .homepage .subhead {
     font-size: 1.2rem;
+    color: #fff; }
+  .homepage li.menu-item a {
     color: #fff; }
 
 .m0 {
@@ -1582,6 +1607,21 @@ hr {
 
 .ml4 {
   margin-left: 4rem; }
+
+.m5 {
+  margin: 6rem; }
+
+.mt5 {
+  margin-top: 6rem; }
+
+.mr5 {
+  margin-right: 6rem; }
+
+.mb5 {
+  margin-bottom: 6rem; }
+
+.ml5 {
+  margin-left: 6rem; }
 
 .p0 {
   padding: 0; }

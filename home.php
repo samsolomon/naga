@@ -8,7 +8,7 @@ Template Name: Home
 
 <?php get_header(); ?>
 
-<h1 class="hero-text mb2"><?php the_field('hero_text'); ?></h1>
+<h1 class="hero-text mt5 mb2"><?php the_field('hero_text'); ?></h1>
 
 <p class="subhead mb3"><?php the_field('subhead'); ?></p>
 
