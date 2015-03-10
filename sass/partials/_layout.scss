@@ -27,6 +27,32 @@ hr {
   margin:$space*2 0;
 }
 
+//Navigation
+ .current-menu-item a {
+  color: $white;
+  background: $primary-color;
+  font-family: $font-family-2;
+  padding: $space*.5 $space*2.5;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: .2px;
+
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.menu-item{
+  display: inline;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+
+
 //Homepage - BG URL MUST BE CHANGED FOR MIGRATION
 .homepage {
   background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/naga/wordpress/wp-content/uploads/2015/03/NAGA-Hero-BW.jpg') no-repeat 50% 50% fixed rgba(0,0,0,0.6);

@@ -25,7 +25,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<!-- background url must be CHANGED after migration -->
+			<h1 class="site-title mt0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="/naga/wordpress/wp-content/uploads/2015/03/logo-banner.svg" alt="NAGA Logo"></a></h1>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
