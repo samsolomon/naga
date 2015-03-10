@@ -26,3 +26,31 @@ hr {
   background:$light-gray;
   margin:$space*2 0;
 }
+
+//Homepage - BG URL MUST BE CHANGED FOR MIGRATION
+.homepage {
+  background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/naga/wordpress/wp-content/uploads/2015/03/NAGA-Hero-BW.jpg') no-repeat 50% 50% fixed rgba(0,0,0,0.6);
+  width:100%;
+  height: 100%;
+  text-align:center;
+
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+  .container {
+    background-color:transparent;
+  }
+
+  .hero-text {
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  .subhead {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+}

@@ -1,16 +1,25 @@
 .btn {
-  color: $dark-gray;
+  color: $white;
+  background: $primary-color;
   font-family: $font-family-2;
-  font-size: 0.75em;
   padding: $space*.5 $space*2.5;
-  border: 1px solid $gray;
-  text-transform: uppercase;
-  transition: border 0.3s ease;
-  -webkit-transition: border 0.3s ease;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: .2px;
+
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease;
 
   &:hover {
-    border-color: $dark-gray;
+    color: $white;
+    background: shade($primary-color, 15);
   }
 }
 
 a.btn { text-decoration: none; }
+
+.big {
+  font-size: $base-font-size*1.2;
+}

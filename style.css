@@ -1445,19 +1445,26 @@ p:first-child {
   white-space: nowrap; }
 
 .btn {
-  color: #585858;
+  color: #fff;
+  background: #ba4b50;
   font-family: "Roboto Slab", serif;
-  font-size: 0.75em;
   padding: 0.5rem 2.5rem;
-  border: 1px solid #b2b2b2;
-  text-transform: uppercase;
-  transition: border 0.3s ease;
-  -webkit-transition: border 0.3s ease; }
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: .2px;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease; }
   .btn:hover {
-    border-color: #585858; }
+    color: #fff;
+    background: #9e3f44; }
 
 a.btn {
   text-decoration: none; }
+
+.big {
+  font-size: 19.2px; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -1483,29 +1490,23 @@ hr {
   background: #dbdbdb;
   margin: 2rem 0; }
 
-.float-left {
-  float: left; }
-
-.float-right {
-  float: right; }
-
-.float-none {
-  float: none; }
-
-.display-block {
-  display: block; }
-
-.display-inline-block {
-  display: inline-block; }
-
-.display-inline {
-  display: inline; }
-
-.display-none {
-  display: none; }
-
-.hidden {
-  opacity: 0; }
+.homepage {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/naga/wordpress/wp-content/uploads/2015/03/NAGA-Hero-BW.jpg") no-repeat 50% 50% fixed rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .homepage .container {
+    background-color: transparent; }
+  .homepage .hero-text {
+    color: #fff;
+    text-transform: uppercase; }
+  .homepage .subhead {
+    font-size: 1.2rem;
+    color: #fff; }
 
 .m0 {
   margin: 0; }
@@ -1699,6 +1700,33 @@ hr {
 
 .cf {
   *zoom: 1; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.float-none {
+  float: none; }
+
+.display-block {
+  display: block; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.display-inline {
+  display: inline; }
+
+.display-none {
+  display: none; }
+
+.hidden {
+  opacity: 0; }
+
+.center {
+  margin: 0 auto; }
 
 .bounce {
   position: relative;
