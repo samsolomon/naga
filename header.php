@@ -36,6 +36,3 @@
 		</nav><!-- #site-navigation -->
 	</div> <!--  end row -->
 	</header><!-- #masthead -->
-
-
-	<div id="content" class="site-content">

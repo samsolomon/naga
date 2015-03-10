@@ -1323,6 +1323,7 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
+  font-size: 16px;
   font-family: "open sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -1363,11 +1364,11 @@ a {
 a:hover {
   color: #ba4b50; }
 
-p {
-  margin: 1rem 0; }
-
 p:first-child {
   margin-top: 2rem; }
+
+p {
+  margin-bottom: 2rem; }
 
 .font-family-1 {
   font-family: "open sans", sans-serif; }
