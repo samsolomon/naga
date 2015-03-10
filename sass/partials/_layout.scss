@@ -28,7 +28,7 @@ hr {
 }
 
 //Navigation
- .current-menu-item a {
+.current-menu-item a {
   color: $white;
   background: $primary-color;
   font-family: $font-family-2;
@@ -43,11 +43,7 @@ hr {
   transition: background 0.3s ease;
 }
 
-.menu-item{
-  display: inline;
-}
-
-.menu-item {
+li.menu-item {
   display: inline-block;
 }
 
