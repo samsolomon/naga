@@ -1,3 +1,13 @@
+ul {
+  list-style-image: url(/naga/wordpress/wp-content/uploads/2015/03/diamond-bullet.svg);
+
+  li {
+    margin-left: $space*2;
+    margin-top: $space*.5;
+    margin-bottom: $space*.5;
+  }
+}
+
 .unstyled-list {
   list-style: none;
   padding-left: 0;
