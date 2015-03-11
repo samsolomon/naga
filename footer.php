@@ -11,10 +11,10 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'naga' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'naga' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'naga' ), 'NAGA', '<a href="http://solomon.io/" rel="designer">Sam Solomon</a>' ); ?>
+		<div class="row site-info">
+			<nav id="footer-navigation" class="col-sm-12 footer-navigation" role="footer-navigation">			
+				<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
+			</nav><!-- #site-navigation -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

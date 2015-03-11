@@ -23,11 +23,11 @@
 
 <div id="page" class="hfeed site">
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header mb2" role="banner">
 		<div class="row">
 		<div class="col-sm-3 site-branding">
 			<!-- background url must be CHANGED after migration -->
-			<h1 class="site-title mt0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="/naga/wordpress/wp-content/uploads/2015/03/logo-banner.svg" alt="NAGA Logo"></a></h1>
+			<h1 class="site-title float-right mt0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="/naga/wordpress/wp-content/uploads/2015/03/logo-banner.svg" alt="NAGA Logo"></a></h1>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="col-sm-9 main-navigation" role="navigation">

@@ -1337,23 +1337,27 @@ h1 {
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.125;
-  margin-bottom: .5rem; }
+  margin-bottom: .5rem;
+  color: #000; }
 
 h2 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.25;
-  margin-bottom: .75rem; }
+  margin-bottom: .75rem;
+  color: #000; }
 
 h3 {
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.25;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color: #000; }
 
 h4 {
   font-weight: bold;
-  font-size: 1rem; }
+  font-size: 1rem;
+  color: #000; }
 
 a {
   color: #ba4b50;
@@ -1480,7 +1484,8 @@ html, body {
 .container {
   max-width: 1020px;
   margin: 0 auto;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 0; }
 
 .site-content {
   max-width: 700px;

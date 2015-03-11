@@ -14,9 +14,10 @@ html, body {
   max-width: 1020px;
   margin:0 auto;
   background-color: $white;
+  padding:0;
 }
 
-.site-content{
+.site-content {
   max-width: 700px;
   margin:0 auto;
 }
@@ -93,6 +94,6 @@ li.menu-item {
 
 //Content
 .hero-image {
-  width: 100%;
-  height: auto;
+  width:100%;
+  height:auto;
 }

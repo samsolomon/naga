@@ -14,10 +14,10 @@ body {
 
 h1,h2,h3,h4,h5,h6 { font-family: $font-family-2;}
 
-h1 { font-weight: bold; font-size: 3rem; line-height: 1.125; margin-bottom: .5rem; }
-h2 { font-weight: bold; font-size: 2rem; line-height: 1.25; margin-bottom: .75rem; }
-h3 { font-weight: bold; font-size: 1.5rem; line-height: 1.25; margin-bottom: 1rem; }
-h4 { font-weight: bold; font-size: 1rem; }
+h1 { font-weight: bold; font-size: 3rem; line-height: 1.125; margin-bottom: .5rem; color: $black;}
+h2 { font-weight: bold; font-size: 2rem; line-height: 1.25; margin-bottom: .75rem; color: $black;}
+h3 { font-weight: bold; font-size: 1.5rem; line-height: 1.25; margin-bottom: 1rem; color: $black;}
+h4 { font-weight: bold; font-size: 1rem; color: $black;}
 
 a {
   color: $base-link-color;
