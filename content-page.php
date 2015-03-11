@@ -12,7 +12,7 @@
 	<?php
 	$image = get_field('hero_image');
 	if( !empty($image) ): ?>
-		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+		<img class="hero-image" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 	<?php endif; ?>
 
 <div id="content" class="site-content">
