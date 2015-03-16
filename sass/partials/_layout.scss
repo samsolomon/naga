@@ -98,3 +98,15 @@ li.menu-item {
   width:100%;
   height:auto;
 }
+
+//footer
+.site-footer {
+  background-color: $darkest-gray;
+}
+#menu-footer-navigation {
+  text-align: right;
+
+  li.menu-item a {
+    color: $white;
+  }
+}

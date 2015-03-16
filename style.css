@@ -1418,6 +1418,48 @@ p {
 .nowrap {
   white-space: nowrap; }
 
+.text-darkest-gray {
+  color: #363636; }
+
+.text-dark-gray {
+  color: #585858; }
+
+.text-gray {
+  color: #707070; }
+
+.text-light-gray {
+  color: #dbdbdb; }
+
+.text-white {
+  color: #fff; }
+
+.text-black {
+  color: #000; }
+
+.text-primary {
+  color: #ba4b50; }
+
+.bg-darkest-gray {
+  background-color: #363636; }
+
+.bg-dark-gray {
+  background-color: #585858; }
+
+.bg-gray {
+  background-color: #707070; }
+
+.bg-light-gray {
+  background-color: #dbdbdb; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-black {
+  background-color: #000; }
+
+.bg-primary {
+  background-color: #ba4b50; }
+
 .b {
   border-style: solid;
   border-width: 1px;
@@ -1555,6 +1597,14 @@ li.menu-item {
 .hero-image {
   width: 100%;
   height: auto; }
+
+.site-footer {
+  background-color: #363636; }
+
+#menu-footer-navigation {
+  text-align: right; }
+  #menu-footer-navigation li.menu-item a {
+    color: #fff; }
 
 .m0 {
   margin: 0; }

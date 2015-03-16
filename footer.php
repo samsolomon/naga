@@ -12,7 +12,14 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="row site-info">
-			<nav id="footer-navigation" class="col-sm-12 footer-navigation" role="footer-navigation">			
+			<div class="col-sm-4">
+				<address class="m2">
+				National Amputee Golf Association
+				<br>701 Orkney Ct.
+				<br>Smyrna, TN 37167-6395
+				</address>
+			</div>
+			<nav id="footer-navigation" class="col-sm-6 footer-navigation" role="footer-navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 			</nav><!-- #site-navigation -->
 		</div><!-- .site-info -->
