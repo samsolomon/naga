@@ -1606,6 +1606,9 @@ li.menu-item {
   #menu-footer-navigation li.menu-item a {
     color: #fff; }
 
+address {
+  font-size: 12.8px; }
+
 .m0 {
   margin: 0; }
 
@@ -1620,6 +1623,14 @@ li.menu-item {
 
 .ml0 {
   margin-left: 0; }
+
+.my0 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.mx0 {
+  margin-left: 0;
+  margin-right: 0; }
 
 .m1 {
   margin: 0.5rem; }
@@ -1636,6 +1647,14 @@ li.menu-item {
 .ml1 {
   margin-left: 0.5rem; }
 
+.my1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+.mx1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
 .m2 {
   margin: 1rem; }
 
@@ -1650,6 +1669,14 @@ li.menu-item {
 
 .ml2 {
   margin-left: 1rem; }
+
+.my2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.mx2 {
+  margin-left: 1rem;
+  margin-right: 1rem; }
 
 .m3 {
   margin: 2rem; }
@@ -1666,6 +1693,14 @@ li.menu-item {
 .ml3 {
   margin-left: 2rem; }
 
+.my3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.mx3 {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
 .m4 {
   margin: 4rem; }
 
@@ -1681,6 +1716,14 @@ li.menu-item {
 .ml4 {
   margin-left: 4rem; }
 
+.my4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.mx4 {
+  margin-left: 4rem;
+  margin-right: 4rem; }
+
 .m5 {
   margin: 6rem; }
 
@@ -1695,6 +1738,14 @@ li.menu-item {
 
 .ml5 {
   margin-left: 6rem; }
+
+.my5 {
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+
+.mx5 {
+  margin-left: 6rem;
+  margin-right: 6rem; }
 
 .p0 {
   padding: 0; }
