@@ -34,33 +34,43 @@
 	<?php
 	// OFFICERS
 	// check if the repeater field has rows of data
-	if( have_rows('officers') ):
-	 	// loop through the rows of data
+	if( have_rows('officers') ): ?>
+
+		<h2>Officers</h2>
+
+	  <?php
+		// loop through the rows of data
 	    while ( have_rows('officers') ) : the_row();
 					//vars
 					$officer_name = get_sub_field('officer_name');
 					$officer_title = get_sub_field('officer_title');
 					$officer_image = get_sub_field('officer_image');
 					?>
+					<div class="col-sm-4">
+							<?php if( $officer_name ): ?>
+								<p><?php echo $officer_name; ?></p>
+							<?php endif; ?>
 
-					<?php if( $officer_name ): ?>
-						<p><?php echo $officer_name; ?></p>
-					<?php endif; ?>
-
-					<?php if( $officer_title ): ?>
-						<p><?php echo $officer_title; ?></p>
-					<?php endif; ?>
+							<?php if( $officer_title ): ?>
+								<p><?php echo $officer_title; ?></p>
+							<?php endif; ?>
 
 					<img src="<?php echo $officer_image['url']; ?>" alt="<?php echo $officer_image['alt'] ?>" />
-			<?php
-	    endwhile;
+					</div>
+
+				<?php
+			  endwhile;
+
 	else :
 	    // no rows found
 	endif;
 
 	//TRUSTEES
 	// check if the repeater field has rows of data
-	if( have_rows('trustees') ):
+	if( have_rows('trustees') ): ?>
+
+		<h2>Trustees</h2>
+		<?php
 		// loop through the rows of data
 			while ( have_rows('trustees') ) : the_row();
 				//vars
@@ -69,12 +79,12 @@
 				$trustee_image = get_sub_field('trustee_image');
 				?>
 
-				<?php if( $officer_name ): ?>
-					<p><?php echo $officer_name; ?></p>
+				<?php if( $trustee_name ): ?>
+					<p><?php echo $trustee_name; ?></p>
 				<?php endif; ?>
 
-				<?php if( $officer_title ): ?>
-					<p><?php echo $officer_title; ?></p>
+				<?php if( $trustee_title ): ?>
+					<p><?php echo $trustee_title; ?></p>
 				<?php endif; ?>
 
 				<img src="<?php echo $trustee_image['url']; ?>" alt="<?php echo $trustee_image['alt'] ?>" />
@@ -95,7 +105,7 @@
 					$regional_information = get_sub_field('regional_information');
 					?>
 
-					<img src="<?php echo $trustee_image['url']; ?>" alt="<?php echo $trustee_image['alt'] ?>" />
+					<img src="<?php echo $regional_image['url']; ?>" alt="<?php echo $regional_image['alt'] ?>" />
 
 					<?php if( $regional_information ): ?>
 						<p><?php echo $regional_information; ?></p>
