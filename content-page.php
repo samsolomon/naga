@@ -90,9 +90,18 @@
 	if( have_rows('regional_associations') ):
 		// loop through the rows of data
 			while ( have_rows('regional_associations') ) : the_row();
-					// display a sub field value
-					the_sub_field('regional_image');
-					the_sub_field('regional_information');
+					//vars
+					$regional_image = get_sub_field('regional_image');
+					$regional_information = get_sub_field('regional_information');
+					?>
+
+					<img src="<?php echo $trustee_image['url']; ?>" alt="<?php echo $trustee_image['alt'] ?>" />
+
+					<?php if( $regional_information ): ?>
+						<p><?php echo $regional_information; ?></p>
+					<?php endif; ?>
+
+					<?php
 			endwhile;
 	else :
 			// no rows found
