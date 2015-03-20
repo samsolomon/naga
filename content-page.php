@@ -45,6 +45,7 @@
 					$officer_name = get_sub_field('officer_name');
 					$officer_title = get_sub_field('officer_title');
 					$officer_image = get_sub_field('officer_image');
+					$officer_link = get_sub_field('officer_link');
 					?>
 					<div class="col-sm-4">
 							<?php if( $officer_name ): ?>
@@ -55,7 +56,13 @@
 								<p><?php echo $officer_title; ?></p>
 							<?php endif; ?>
 
-					<img src="<?php echo $officer_image['url']; ?>" alt="<?php echo $officer_image['alt'] ?>" />
+							<?php if( $officer_link ): ?>
+								<a href="<?php echo $officer_link; ?>">
+							<?php endif; ?>
+								<img src="<?php echo $officer_image['url']; ?>" alt="<?php echo $officer_image['alt'] ?>" />
+								<?php if( $officer_link ): ?>
+										</a>
+								<?php endif; ?>
 					</div>
 
 				<?php
@@ -77,18 +84,26 @@
 				$trustee_name = get_sub_field('trustee_name');
 				$trustee_title = get_sub_field('trustee_title');
 				$trustee_image = get_sub_field('trustee_image');
+				$trustee_link = get_sub_field('trustee_link');
 				?>
+				<div class="col-sm-4">
+					<?php if( $trustee_name ): ?>
+						<p><?php echo $trustee_name; ?></p>
+					<?php endif; ?>
 
-				<?php if( $trustee_name ): ?>
-					<p><?php echo $trustee_name; ?></p>
-				<?php endif; ?>
+					<?php if( $trustee_title ): ?>
+						<p><?php echo $trustee_title; ?></p>
+					<?php endif; ?>
 
-				<?php if( $trustee_title ): ?>
-					<p><?php echo $trustee_title; ?></p>
-				<?php endif; ?>
+					<?php if( $trustee_link ): ?>
+						<a href="<?php echo $trustee_link; ?>">
+					<?php endif; ?>
+					<img src="<?php echo $trustee_image['url']; ?>" alt="<?php echo $trustee_image['alt'] ?>" />
+					<?php if( $officer_link ): ?>
+							</a>
+					<?php endif; ?>
 
-				<img src="<?php echo $trustee_image['url']; ?>" alt="<?php echo $trustee_image['alt'] ?>" />
-
+				</div>
 			<?php
 			endwhile;
 	else :
